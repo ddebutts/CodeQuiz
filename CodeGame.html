@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+    <nav>
+        <div class="container">
+            <div class="row">
+                <div class="col-6 text-left">
+                    <a href="./HighScores.html" id="highScores">View High Scores</a>
+                </div>
+                <div class="col-6 text-right">
+                    <span>Time: <span id="timer">75</span></span>
+                </div>
+            </div>
+
+            <div class="row myRow"  id="Start">
+                <div class="col-12">
+                    <h1 class="card_title">Coding Quiz Challenge</h1>
+                    <p class="card_text">
+                        Try to answer these questions if you can!!!!
+                    </p>
+                    <button class="btn btn-primary" id="startBtn">Start Quiz!</button>
+                </div>
+            </div>
+
+            <div class="row myRow hide" id="QuestionBox">
+                <div class="col-12">
+                    <h1 class="card_title" id="QuestionDiv">My Question</h1>
+                    <p id="answerChoices" ></p>
+                </div>
+            </div>
+
+        </div>
+    </nav>
+
+
+
+
+    <script src="./assets/js/questions.js"></script>
+    <script src="./assets/js/logic.js"></script>
+</body>
+
+</html>

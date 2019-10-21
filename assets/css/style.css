@@ -1,0 +1,20 @@
+.card_title {
+    font-size: 36px;
+    color: purple;
+    text-align: center;
+    padding: 5px;
+}
+
+.myRow {
+    margin-top: 50px;
+    padding: 15px;
+    border: 1px solid black;
+}
+
+.hide {
+    display: none;
+}
+
+#answerChoices {
+    padding: 10px;
+}
